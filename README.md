@@ -147,10 +147,11 @@ python voice_agent.py download-files
 python voice_agent.py
 ```
 
-#### Option 2: LangGraph-powered Agent
+#### Option 2: LangGraph-powered Agent with Voice agent
 ```bash
-python main_demo_langgraph.py
+python main_demo_langgraph.py console
 ```
+#### to give input through text when main_demo_langgraph.py is executed , click " Ctrl + B " .
 
 #### Option 3: OpenAI Assistant Demo
 ```bash
