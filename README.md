@@ -144,7 +144,7 @@ python voice_agent.py download-files
 
 #### Option 1: Basic Voice Agent
 ```bash
-python voice_agent.py
+python voice_agent.py console
 ```
 
 #### Option 2: LangGraph-powered Agent with Voice agent
