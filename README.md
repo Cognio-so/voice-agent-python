@@ -102,6 +102,13 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env with your API keys
 ```
+4. **Live-kit plugins**:
+```
+pip install \
+  "livekit-agents[deepgram,openai,cartesia,silero,turn-detector]~=1.0" \
+  "livekit-plugins-noise-cancellation~=0.2" \
+  "python-dotenv"
+```
 
 Required environment variables:
 ```env
