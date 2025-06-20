@@ -105,7 +105,7 @@ cp .env.example .env
 4. **Live-kit plugins**:
 ```
 pip install \
-  "livekit-agents[deepgram,openai,cartesia,silero,turn-detector]~=1.0" \
+  "livekit-agents[deepgram,openai,google,silero,turn-detector]~=1.0" \
   "livekit-plugins-noise-cancellation~=0.2" \
   "python-dotenv"
 ```
