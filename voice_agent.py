@@ -332,9 +332,9 @@ class VoiceAssistant:
             # Voice activity detection
             vad=silero.VAD.load(
                 force_cpu=True,
-                activation_threshold=0.6,  # Slightly higher threshold for better performance
-                min_silence_duration=0.5,  # Slightly reduced from default (0.55)
-                sample_rate=8000,  # Lower sample rate for faster processing
+                activation_threshold=0.5, 
+                min_silence_duration=0.5,  
+                sample_rate=16000, 
             ),
             
             # Enhanced STT with retry logic
